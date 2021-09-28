@@ -13,10 +13,22 @@ body{
     align-items: center;
     height: 100vh;
 
-    font-size: 1em;
+    font-size: 16px;
     font-weight: 300;
     line-height: 1.4;
     font-family: 'Roboto', sans-serif;
 
     
+}
+.calculator_buttons{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.calculator_buttons button{
+    border: none;
+    font-size: 3em;
+    padding: 6px 12px;
+
+  
+
 }

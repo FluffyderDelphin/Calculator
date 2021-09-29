@@ -47,6 +47,12 @@ body{
   
 
 }
+.calculator_buttons button:hover{
+    background-color: rgb(197, 197, 197);
+}
+
+
+
 .calulator_display{
     width: 100%;
     text-align: right;

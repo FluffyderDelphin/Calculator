@@ -20,14 +20,18 @@ body{
 
     
 }
+
+.calculator{
+    box-shadow: 2px 4px 10px 2px rgba(0, 0, 0, 0.4);
+}
 .calculator_buttons{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .calculator_buttons button{
     border: none;
-    font-size: 3em;
-    padding: 6px 12px;
+    font-size: 3rem;
+    padding: 0.6rem 1.3rem;
 
   
 
@@ -35,6 +39,7 @@ body{
 .calulator_display{
     width: 100%;
     text-align: right;
-    box-shadow: 2px 4px 10px 2px rgba(0, 0, 0, 0.4);
-    padding: 5px;
+    padding: 1rem 1.2rem;
+    /* height: 50px; */
+    font-size: 2rem;
 }

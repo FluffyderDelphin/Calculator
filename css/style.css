@@ -27,11 +27,19 @@ body{
 .calculator_buttons{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "plus minus multy divide"
+    "seven eight nine ."
+    "four five six ."
+    "one two three ."
+    ". zero , equal";
+   
 }
 .calculator_buttons button{
     border: none;
     font-size: 3rem;
     padding: 0.6rem 1.3rem;
+    background-color: rgb(216, 216, 216);
 
   
 

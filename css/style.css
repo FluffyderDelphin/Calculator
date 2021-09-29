@@ -28,11 +28,14 @@ body{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas:
-    "plus minus multy divide"
-    "seven eight nine ."
-    "four five six ."
-    "one two three ."
-    ". zero , equal";
+    "divide times minus plus"
+    "seven eight nine equal"
+    "four five six equal"
+    "one two three equal "
+    "comma zero allclear equal";
+
+    row-gap: 2px;
+    column-gap: 2px;
    
 }
 .calculator_buttons button{
@@ -50,4 +53,71 @@ body{
     padding: 1rem 1.2rem;
     /* height: 50px; */
     font-size: 2rem;
+}
+
+.one{
+    grid-area: one;
+}
+
+.two{
+    grid-area: two;
+}
+
+.three{
+    grid-area: three;
+}
+.four{
+    grid-area: four;
+}
+
+.five{
+    grid-area: five;
+}
+
+.six{
+    grid-area: six;
+}
+
+.seven{
+    grid-area: seven;
+}
+
+.eight{
+    grid-area: eight;
+}
+
+.nine{
+    grid-area: nine;
+}
+
+.zero{
+    grid-area: zero;
+}
+
+.plus{
+    grid-area: plus;
+}
+
+.minus{
+    grid-area: minus;
+}
+
+.times{
+    grid-area: times;
+}
+
+.divide{
+    grid-area: divide;
+}
+
+.comma{
+    grid-area: comma;
+}
+
+.allclear{
+    grid-area: allclear;
+}
+
+.equal{
+    grid-area: equal;
 }

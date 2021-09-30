@@ -104,8 +104,10 @@ body{
     width: 100%;
     text-align: right;
     padding: 1rem 1.2rem;
-    /* height: 50px; */
     font-size: 2rem;
+    background-color: rgb(209, 239, 253);
+    border-radius: 5px;
+    color: rgb(4, 19, 34);
 }
 /* Grid Areas */
 .one{
